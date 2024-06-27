@@ -8,9 +8,3 @@ body {
     padding: 2rem;
     grid-column: 1 / 4;
   }
-  footer {
-    background: wheat;
-    padding: 2rem;
-    text-align: center;
-    grid-column: 1 / 4;
-  }
