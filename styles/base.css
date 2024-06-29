@@ -235,3 +235,9 @@ h3 {
     font-family: Arial, sans-serif;
     color: #666;
 }
+
+.content-wrapper { 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
