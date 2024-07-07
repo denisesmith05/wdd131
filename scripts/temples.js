@@ -1,50 +1,19 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     const yearSpan = document.getElementById("currentyear");
-//     const lastModifiedSpan = document.getElementById("lastModified");
-//     const menuToggle = document.getElementById("menuToggle");
-//     const menu = document.getElementById("menu");
-
-//     yearSpan.textContent = new Date().getFullYear();
-//     lastModifiedSpan.textContent = `Last Modified: ${document.lastModified}`;
-
-//     menuToggle.addEventListener("click", function() {
-//         if (menu.style.display === "flex") {
-//             menu.style.display = "none";
-//             menuToggle.textContent = "☰";
-//         } else {
-//             menu.style.display = "flex";
-//             menuToggle.textContent = "X";
-//         }
-//     });
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//     const yearSpan = document.getElementById('year');
-//     const lastModifiedSpan = document.getElementById('lastModified');
-
-//     const currentYear = new Date().getFullYear();
-//     yearSpan.textContent = currentYear;
-
-//     const lastModified = document.lastModified;
-//     lastModifiedSpan.textContent = lastModified;
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
-        const yearSpan = document.getElementById("currentyear");
-        const lastModifiedSpan = document.getElementById("lastModified");
-        const menuToggle = document.getElementById("menuToggle");
-        const menu = document.getElementById("menu");
-    
-        yearSpan.textContent = new Date().getFullYear();
-        lastModifiedSpan.textContent = `Last Modified: ${document.lastModified}`;
-    
-        menuToggle.addEventListener("click", function() {
-            if (menu.style.display === "flex") {
-                menu.style.display = "none";
-                menuToggle.textContent = "☰";
-            } else {
-                menu.style.display = "flex";
-                menuToggle.textContent = "X";
-            }
-        });
+    const yearSpan = document.getElementById("currentyear");
+    const lastModifiedSpan = document.getElementById("lastModified");
+    const menuToggle = document.getElementById("menuToggle");
+    const menu = document.getElementById("menu");
+
+    yearSpan.textContent = new Date().getFullYear();
+    lastModifiedSpan.textContent = `Last Modified: ${document.lastModified}`;
+
+    menuToggle.addEventListener("click", function() {
+        if (menu.style.display === "flex") {
+            menu.style.display = "none";
+            menuToggle.textContent = "☰";
+        } else {
+            menu.style.display = "flex";
+            menuToggle.textContent = "X";
+        }
     });
+});

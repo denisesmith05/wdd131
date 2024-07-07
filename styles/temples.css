@@ -1,86 +1,98 @@
-
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        color: #333;
-    }
-    
-    header {
-        background-color: #ffcccc;
-        padding: 20px 0;
-        text-align: center;
-    }
-    
-    header h1 {
-        font-family: 'Rock Salt', cursive;
-        font-weight: 100;
-        border-bottom: 2px solid #99cccc;
-        padding-bottom: 10px;
-    }
-    
-    nav {
-        position: relative;
-    }
-    
-    nav button#menuToggle {
-        display: none;
-        background: none;
-        border: none;
-        font-size: 2rem;
-        cursor: pointer;
-    }
-    
-    nav ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #ffcccc;
-        margin-top: 1rem;
-    }
-    
-    nav li {
-        margin: 10px 0;
-    }
-    
-    nav a {
-        text-decoration: none;
-        color: #333;
-        font-size: 1.2rem;
-        font-weight: 700;
-    }
-    
-    nav a:hover {
-        color: white;
-    }
-    
-    main {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 2rem;
-    }
-    
-    figure {
-        display: grid;
-        place-items: center;
-    }
-    
-    figcaption {
-        margin-top: 1rem;
-        font-family: Arial, sans-serif;
-        color: #666;
-    }
-    
-    footer {
-        margin-top: 75px;
-        border-top: 5px solid #99cccc;
-        background-color: #ffcccc;
-        text-align: center;
-        padding: 30px 0;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 100;
+    border-bottom: 2px solid #99cccc;
+    padding-bottom: 10px;
+}
+
+nav {
+    position: relative;
+}
+
+nav button#menuToggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffcccc;
+    margin-top: 1rem;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.temples-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    height: 150px;
+}
+
+figcaption {
+    margin-top: 1rem;
+    font-family: Arial, sans-serif;
+    color: #666;
+}
+
+footer {
+    margin-top: 75px;
+    border-top: 5px solid #99cccc;
+    background-color: #ffcccc;
+    text-align: center;
+    padding: 30px 0;
+}
