@@ -1,0 +1,27 @@
+
+
+@media (min-width: 600px) {
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+    
+        nav button#menuToggle {
+            display: none;
+        }
+    
+        nav ul {
+            flex-direction: row;
+            gap: 2rem;
+            background: none;
+            margin-top: 0;
+        }
+    }
+    
+    @media (min-width: 900px) {
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+    }
