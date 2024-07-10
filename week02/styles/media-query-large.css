@@ -1,0 +1,29 @@
+/* @media screen and (min-width: 500px) {
+    header {
+        max-width: 640px;
+        margin: 1rem auto;
+        border: 15px solid rgba(0, 0, blue, .5);
+        background-color: black;
+        color: white;
+    }
+    main {
+        grid-column: 1fr 1fr;
+    }
+} */
+
+@media screen and (min-width: 500px) {
+    /* Styles for larger screens */
+    header {
+      background-color: black;
+      color: white;
+    }
+    section {
+      display: flex; /* Change to flexbox for a two-column layout */
+      flex-direction: row;
+      justify-content: space-between; /* Distribute content horizontally */
+      padding: 20px;
+    }
+    main {
+      grid-template-columns: 1fr 1fr;  /* Define two columns for the grid */
+    }
+  }
