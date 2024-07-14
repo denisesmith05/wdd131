@@ -1,0 +1,25 @@
+.content-wrapper {
+    flex-direction: row; /* Ensure the boxes are side by side */
+}
+
+/* Data Sections */
+.box {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #009640; /* Green */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-section {
+    position: relative;
+    top: -20px; /* Adjusted for middle alignment */
+}
+
+.weather {
+    position: relative;
+    top: 0; /* Adjusted for middle alignment */
+    margin-top: 80px; /* Lower than data box */
+    text-align: center;
+}
