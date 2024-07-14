@@ -1,12 +1,12 @@
-.content-wrapper {
-    flex-direction: row; /* Ensure the boxes are side by side */
+/* .content-wrapper {
+    flex-direction: row; /* Ensure the boxes are side by side 
 }
 
 /* Data Sections */
 .box {
     width: 25%;
     background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid #009640; /* Green */
+    border: 2px solid #009640;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,25 @@
 
 .weather {
     position: relative;
-    top: 0; /* Adjusted for middle alignment */
+    top: 0; /* Adjusted for middle alignment*/
     margin-top: 80px; /* Lower than data box */
     text-align: center;
-}
+} 
+
+/* Target screens wider than 1200px */
+@media (min-width: 1200px) {
+    .content-wrapper {
+      display: flex; /* Arrange data and weather sections side-by-side */
+      justify-content: space-between; /* Distribute sections horizontally */
+      align-items: center; /* Align sections vertically */
+      margin: 0 auto; /* Center content horizontally on larger screens */
+      width: 80%; /* Limit content width on larger screens (optional) */
+    }
+  
+    .data-section,
+    .weather {
+      width: 45%; /* Adjust width for side-by-side layout */
+      padding: 30px; /* Increase padding for larger screens (optional) */
+    }
+  }
+  

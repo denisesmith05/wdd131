@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #0033a0; /* Dark blue */
+    background-color: #0033a0;
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -22,7 +22,7 @@ main {
 }
 
 footer {
-    background-color: #0033a0; /* Dark blue */
+    background-color: #0033a0;
     padding: 10px;
     text-align: center;
     font-size: 12px;
@@ -61,7 +61,7 @@ footer {
 /* Data Sections */
 .box {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid #009640; /* Green */
+    border: 2px solid #009640;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -84,3 +84,11 @@ footer {
 .weather span {
     font-weight: bold;
 }
+
+  /* Media Query (Optional) - Adjust styles for larger screens */
+  @media (min-width: 768px) {
+    .box {
+      width: 45%; /* Adjust width for side-by-side layout on larger screens */
+    }
+  }
+  
