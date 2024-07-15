@@ -24,10 +24,6 @@
     text-align: center;
 } 
 
-.icon {
-  height: 50px;
-}
-
 /* Target screens wider than 1200px */
 @media (min-width: 1200px) {
     .content-wrapper {
@@ -43,4 +39,12 @@
       width: 45%; /* Adjust width for side-by-side layout */
       padding: 30px; /* Increase padding for larger screens (optional) */
     }
+
+    .icon {
+      background-image: url(images/emoticon.png); /* Adjust path as necessary */
+      background-size: contain; /* Adjust size as necessary */
+      background-repeat: no-repeat;
+      height: 50px; /* Ensure consistent size */
+      width: 50px; /* Ensure consistent size */
+  }
 }
