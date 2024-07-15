@@ -16,11 +16,18 @@ header {
     text-align: center;
 }
 
-header h1 {
+h1 {
     font-family: 'Rock Salt', cursive;
     font-weight: 100;
     border-bottom: 2px solid #99cccc;
     padding-bottom: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffcccc;
+   padding-top: 15px;
+
 }
 
 nav {
@@ -67,6 +74,7 @@ nav a:hover {
 main h2 {
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 figure {
