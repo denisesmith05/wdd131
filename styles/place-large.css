@@ -1,5 +1,5 @@
-/* .content-wrapper {
-    flex-direction: row; /* Ensure the boxes are side by side 
+.content-wrapper {
+    flex-direction: row; /* Ensure the boxes are side by side */
 }
 
 /* Data Sections */
@@ -39,5 +39,4 @@
       width: 45%; /* Adjust width for side-by-side layout */
       padding: 30px; /* Increase padding for larger screens (optional) */
     }
-  }
-  
+}
