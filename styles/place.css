@@ -99,9 +99,13 @@ footer::after {
     color: var(--text-color);
 }
 
-  /* Media Query (Optional) - Adjust styles for larger screens */
+  /* Media Query - Adjust styles for larger screens */
   @media (min-width: 768px) {
     .box {
       width: 45%; /* Adjust width for side-by-side layout on larger screens */
+    }
+
+    .icon {
+        content: url(images/emoticon.png); /* Replace with the path to your emoticon image */
     }
   }

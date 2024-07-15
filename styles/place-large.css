@@ -24,6 +24,10 @@
     text-align: center;
 } 
 
+.icon {
+  height: 50px;
+}
+
 /* Target screens wider than 1200px */
 @media (min-width: 1200px) {
     .content-wrapper {
