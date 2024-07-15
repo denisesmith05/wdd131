@@ -40,7 +40,7 @@ footer {
 /* Hero Section */
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 82vh;
     overflow: hidden;
     margin: 0; /* Remove margin */
 }
