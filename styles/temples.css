@@ -35,11 +35,15 @@ nav {
 }
 
 nav button#menuToggle {
-    display: none;
+    display: block;
     background: none;
     border: none;
     font-size: 2rem;
     cursor: pointer;
+    color: #fff;
+    background-color: #800080; /* Purple background */
+    padding: 10px;
+    border-radius: 5px;
 }
 
 nav ul {
