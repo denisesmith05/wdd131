@@ -41,7 +41,7 @@ nav button#menuToggle {
     font-size: 2rem;
     cursor: pointer;
     color: #fff;
-    background-color: #800080; /* Purple background */
+    /* background-color: #800080;*/
     padding: 10px;
     border-radius: 5px;
 }
