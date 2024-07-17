@@ -2,14 +2,7 @@ const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
-const li = document.createElement('li')
-const deleteButton = document.createElement('del')
-li.textContent = input.value;
-deleteButton.textContent = 'X';
-li.append('deleteButton');
-list.append('li');
-
-buttonElement.addEventListener('click', function() {
+button.addEventListener('click', function() {
     // Get the input value
     const chapter = input.value;
 
@@ -36,6 +29,7 @@ buttonElement.addEventListener('click', function() {
 
     // Clear the input field
     input.value = '';
+    input.focus();
 
     // Add event listener to the delete button to remove the chapter
     deleteButton.addEventListener('click', function() {
