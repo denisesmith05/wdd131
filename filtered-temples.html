@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temples | WDD 131 - Denise Smith</title>
+    <meta name="description" content="Filtered temples page.">
+    <meta name="author" content="Denise Smith">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" media="screen and (min-width: 600px)">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Temple Album</h1>
+        <header>
+            <nav>
+                <button id="menuToggle">☰</button>
+                <ul id="menu">
+                    <!-- <li><a href="index.html">Home</a></li> -->
+                    <li><a href="#" id="filter-all">Home</a></li>
+                    <li><a href="#" id="filter-old">Old</a></li>
+                    <li><a href="#" id="filter-new">New</a></li>
+                    <li><a href="#" id="filter-large">Large</a></li>
+                    <li><a href="#" id="filter-small">Small</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2></h2>
+            <div class="temples-grid" id="temples-grid">
+                <!-- Temple cards will be dynamically generated here -->
+            </div>
+        </main>
+        <footer>
+            <p>©<span id="currentyear"></span> | Denise Smith | Sunnyvale, California</p>
+            <p id="lastModified"></p>
+        </footer>
+    </div>
+</body>
+</html>

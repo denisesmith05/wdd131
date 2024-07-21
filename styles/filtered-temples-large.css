@@ -1,0 +1,24 @@
+@media (min-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav button#menuToggle {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        background: none;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 900px) {
+    .temples-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
