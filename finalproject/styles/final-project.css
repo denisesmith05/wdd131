@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -218,89 +217,14 @@ footer a {
 .product-nav ul.show {
     display: flex;
 } 
+  
+/* Hide navigation by default on small screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
 
-
-/* Color Scheme */
-
-  
-  a {
-    color: var(--accent-color);
-  }
-  
-  .header, .footer, .nav-bar {
-    background-color: var(--secondary-color);
-  }
-  
-  .button {
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
-  }
-  
-  /* Clothing Container */
-  .clothing-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-between;
-  }
-  
-  .clothing-item {
-    width: calc(25% - 10px);
-    box-sizing: border-box;
-  }
-  
-  .clothing-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  /* Navigation Bar */
-  .main-nav {
-    position: relative;
-  }
-  
-  .nav-content {
-    display: none; /* Hide by default */
-  }
-  
-  .products-menu {
-    display: none; /* Hide by default */
-  }
-  
-  #nav-toggle, #products-toggle {
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
-  }
-  
-  #products-menu {
-    background-color: var(--primary-color);
-  }
-  
-  #nav-toggle.active ~ #nav-content {
-    display: block;
-  }
-  
-  #products-toggle.active ~ #products-menu {
-    display: block;
-  }
-  
-  /* Hero Image */
-  .hero-image {
-    background-image: url('images/floral-hero.avif');
-    background-size: cover;
-    background-position: center;
-    height: 400px; /* Adjust height as needed */
-  }
-  
-  nav button#menuToggle {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    color: #fff;
-    /* background-color: #800080;*/
-    padding: 10px;
-    border-radius: 5px;
+    .hamburger {
+        display: flex;
+    }
 }

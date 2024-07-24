@@ -54,12 +54,21 @@ navButtons.forEach(button => {
     });
 });
 
-menuToggle.addEventListener("click", function() {
-    if (menu.style.display === "flex") {
-        menu.style.display = "none";
-        menuToggle.textContent = "☰";
+// menuToggle.addEventListener("click", function() {
+//     if (menu.style.display === "flex") {
+//         menu.style.display = "none";
+//         menuToggle.textContent = "☰";
+//     } else {
+//         menu.style.display = "flex";
+//         menuToggle.textContent = "X";
+//     }
+// });
+
+document.querySelector(".hamburger").addEventListener("click", function() {
+    var nav = document.querySelector(".nav-links");
+    if (nav.style.display === "block" || nav.style.display === "") {
+        nav.style.display = "none";
     } else {
-        menu.style.display = "flex";
-        menuToggle.textContent = "X";
+        nav.style.display = "block";
     }
 });
