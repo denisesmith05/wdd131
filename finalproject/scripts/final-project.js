@@ -66,22 +66,22 @@ navButtons.forEach(button => {
 
 document.querySelector(".nav-hamburger").addEventListener("click", function() {
     var nav = document.querySelector(".nav-links");
-    if (nav.style.display === "block" || nav.style.display === "") {
+    if (nav.style.display === "flex" || nav.style.display === "") {
         nav.style.display = "none";
         menuToggle.textContent = "☰";
     } else {
-        nav.style.display = "block";
+        nav.style.display = "flex";
         menuToggle.textContent = "X";
     }
 });
 
 document.querySelector(".clothes-hamburger").addEventListener("click", function() {
     var nav = document.querySelector(".nav-links");
-    if (nav.style.display === "block" || nav.style.display === "") {
+    if (nav.style.display === "flex" || nav.style.display === "") {
         nav.style.display = "none";
         menuToggle.textContent = "☰";
     } else {
-        nav.style.display = "block";
+        nav.style.display = "flex";
         menuToggle.textContent = "X";
     }
 });
