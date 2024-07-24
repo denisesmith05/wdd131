@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
             area: 10800,
             imageUrl: "images/temple3.jpg"
         },
-        // Add additional three or more temple objects here
         {
             name: "Provo City Center Temple",
             location: "Provo, Utah, USA",

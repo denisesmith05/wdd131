@@ -24,7 +24,7 @@ main {
 
 h2 {
 	color: navy;
-	text-align: center;
+	text-align: left;
     grid-template-columns: 1fr 200px;
 }
 
@@ -35,11 +35,12 @@ article p {
 .callout {
 	color: #00ffe1;
 	background-color: #702963;
+	padding: 1rem;
 }
 
 footer {
 	margin-top: 1rem;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: smaller;
-	text-align: right;
+	text-align: left;
 }
