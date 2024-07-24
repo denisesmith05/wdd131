@@ -200,15 +200,7 @@ footer a {
         display: none;
     }
 
-    .nav-hamburger {
+    .hamburger {
         display: flex;
     }
-}
-
-.clothes-hamburger {
-    display: flex;
-}
-
-.product-nav {
-    display: none;
 }

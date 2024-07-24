@@ -54,34 +54,24 @@ navButtons.forEach(button => {
     });
 });
 
-// menuToggle.addEventListener("click", function() {
-//     if (menu.style.display === "flex") {
-//         menu.style.display = "none";
-//         menuToggle.textContent = "☰";
-//     } else {
-//         menu.style.display = "flex";
-//         menuToggle.textContent = "X";
-//     }
-// });
-
-document.querySelector(".nav-hamburger").addEventListener("click", function() {
+// Responsive navigation for main nav
+document.getElementById("main-nav-toggle").addEventListener("click", function() {
     var nav = document.querySelector(".nav-links");
-    if (nav.style.display === "flex" || nav.style.display === "") {
-        nav.style.display = "none";
-        menuToggle.textContent = "☰";
-    } else {
-        nav.style.display = "flex";
-        menuToggle.textContent = "X";
-    }
+    nav.style.display = (nav.style.display === "block" ? "none" : "block");
 });
 
-document.querySelector(".clothes-hamburger").addEventListener("click", function() {
-    var nav = document.querySelector(".nav-links");
-    if (nav.style.display === "flex" || nav.style.display === "") {
-        nav.style.display = "none";
-        menuToggle.textContent = "☰";
-    } else {
-        nav.style.display = "flex";
-        menuToggle.textContent = "X";
-    }
+
+var navButtons = document.querySelectorAll(".product-nav .nav-btn");
+navButtons.forEach(button => {
+    button.addEventListener("click", function() {
+        var category = this.getAttribute("data-category");
+        var items = document.querySelectorAll(".products-grid .item-card");
+        items.forEach(item => {
+            if (category === "all" || item.getAttribute("data-category") === category) {
+                item.style.display = "block";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    });
 });
