@@ -56,9 +56,9 @@
         margin-bottom: 20px;
     }
     
-    .product-nav .nav-links {
+    /* .product-nav .nav-links {
         display: flex;
-    }
+    } */
     
     .nav-btn {
         text-decoration: none;
@@ -80,7 +80,15 @@
         justify-content: space-around;
     }
 
-    .hamburger {
+    .nav-hamburger {
         display: none;
     }
+}
+
+.clothes-hamburger {
+    display: flex;
+}
+
+.product-nav {
+    display: none;
 }

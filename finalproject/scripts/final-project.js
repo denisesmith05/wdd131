@@ -64,11 +64,24 @@ navButtons.forEach(button => {
 //     }
 // });
 
-document.querySelector(".hamburger").addEventListener("click", function() {
+document.querySelector(".nav-hamburger").addEventListener("click", function() {
     var nav = document.querySelector(".nav-links");
     if (nav.style.display === "block" || nav.style.display === "") {
         nav.style.display = "none";
+        menuToggle.textContent = "☰";
     } else {
         nav.style.display = "block";
+        menuToggle.textContent = "X";
+    }
+});
+
+document.querySelector(".clothes-hamburger").addEventListener("click", function() {
+    var nav = document.querySelector(".nav-links");
+    if (nav.style.display === "block" || nav.style.display === "") {
+        nav.style.display = "none";
+        menuToggle.textContent = "☰";
+    } else {
+        nav.style.display = "block";
+        menuToggle.textContent = "X";
     }
 });
