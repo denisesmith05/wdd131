@@ -193,13 +193,3 @@ footer a {
     display: flex;
 } 
   
-/* Hide navigation by default on small screens */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-}
