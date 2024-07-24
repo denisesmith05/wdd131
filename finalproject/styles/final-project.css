@@ -293,4 +293,14 @@ footer a {
     height: 400px; /* Adjust height as needed */
   }
   
-  
+  nav button#menuToggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    /* background-color: #800080;*/
+    padding: 10px;
+    border-radius: 5px;
+}
