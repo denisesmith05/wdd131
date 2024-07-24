@@ -79,16 +79,8 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    
-}
-
-/* Hide navigation by default on small screens
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
 
     .hamburger {
-        display: flex;
+        display: none;
     }
-} */
+}
