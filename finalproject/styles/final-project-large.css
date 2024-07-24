@@ -82,7 +82,7 @@
     
 }
 
-/* Hide navigation by default on small screens */
+/* Hide navigation by default on small screens
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -91,4 +91,4 @@
     .hamburger {
         display: flex;
     }
-}
+} */
