@@ -61,17 +61,17 @@ document.getElementById("main-nav-toggle").addEventListener("click", function() 
 });
 
 
-var navButtons = document.querySelectorAll(".product-nav .nav-btn");
-navButtons.forEach(button => {
-    button.addEventListener("click", function() {
-        var category = this.getAttribute("data-category");
-        var items = document.querySelectorAll(".products-grid .item-card");
-        items.forEach(item => {
-            if (category === "all" || item.getAttribute("data-category") === category) {
-                item.style.display = "block";
-            } else {
-                item.style.display = "none";
-            }
-        });
-    });
-});
+// var navButtons = document.querySelectorAll(".product-nav .nav-btn");
+// navButtons.forEach(button => {
+//     button.addEventListener("click", function() {
+//         var category = this.getAttribute("data-category");
+//         var items = document.querySelectorAll(".products-grid .item-card");
+//         items.forEach(item => {
+//             if (category === "all" || item.getAttribute("data-category") === category) {
+//                 item.style.display = "block";
+//             } else {
+//                 item.style.display = "none";
+//             }
+//         });
+//     });
+// });
