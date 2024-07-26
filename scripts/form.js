@@ -1,8 +1,13 @@
 
 // Product array
 const products = [
-    { id: 1, name: "Product A" },
-    { id: 2, name: "Product B" },
+    { id: 1, name: "Mixer" },
+    { id: 2, name: "Cook Book" },
+    { id: 3, name: "Floral Spatula" },
+    { id: 4, name: "Kitchen Towels" },
+    { id: 5, name: "Vintage Silverware" },
+    { id: 6, name: "Cotton Candy Maker" },
+    { id: 7, name: "Apron" }
 ];
 
 // Populate product options
